@@ -1,161 +1,71 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Expedition log — Into the deep</title>
-    <link rel="stylesheet" href="styles/style.css" />
-  </head>
-  <body>
-    <header class="hero">
-      <figure>
-        <img
-          src="images/research-vessel.jpg"
-          alt="A research vessel on dark water beneath towering storm clouds"
-        />
-        <figcaption>
-          A research vessel under storm clouds — expects
-          <code>images/research-vessel.jpg</code>
-        </figcaption>
-      </figure>
-      <h1>Expedition log</h1>
-      <p class="tagline">Into the deep</p>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Northstar Studio creates modern, approachable websites for ambitious small businesses.">
+  <title>Northstar Studio | Websites with Personality</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="#home" aria-label="Northstar Studio homepage"><span class="logo-star" aria-hidden="true">✦</span> northstar<span class="logo-dot">.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#work">Our work</a>
+        <a href="#reviews">Reviews</a>
+        <a class="nav-contact" href="#contact">Contact us</a>
+      </nav>
+    </div>
+  </header>
 
-    <main>
-      <section class="manifest" aria-labelledby="manifest-heading">
-        <h2 id="manifest-heading">Expedition manifest — read this first</h2>
-        <p>
-          This page is broken on purpose. The photos and the stylesheet were
-          downloaded into one messy folder with terrible names. Your mission:
-          create the folders below, then rename and <strong>move</strong> each
-          file into place. Refresh the browser after every fix.
-        </p>
-        <p>This page expects <em>exactly</em> this structure:</p>
-        <ul>
-          <li><code>index.html</code> — this file. Do NOT rename it.</li>
-          <li><code>styles/style.css</code></li>
-          <li><code>images/research-vessel.jpg</code></li>
-          <li><code>images/scuba-diver.jpg</code></li>
-          <li><code>images/coral-reef.jpg</code></li>
-          <li><code>images/shipwreck.jpg</code></li>
-          <li><code>images/rov.jpg</code></li>
-          <li><code>images/jellyfish.jpg</code></li>
-        </ul>
-        <p>
-          Each broken picture below has a caption telling you what should
-          appear there. Preview the messy files to figure out which is which.
-        </p>
-      </section>
-
-      <section aria-labelledby="work-heading">
-        <h2 id="work-heading">The work down there</h2>
-        <figure>
-          <img
-            src="images/scuba-diver.jpg"
-            alt="A scuba diver back-rolling off an orange boat into bright blue water, fins in the air"
-          />
-          <figcaption>
-            A diver rolling backward off a boat — expects
-            <code>images/scuba-diver.jpg</code>
-          </figcaption>
-        </figure>
-        <p>
-          Ocean science starts with getting wet. Divers survey reefs, repair
-          instruments, and count what lives below — one splashy backward roll
-          at a time.
-        </p>
-      </section>
-
-      <section aria-labelledby="garden-heading">
-        <h2 id="garden-heading">The sunlit garden</h2>
-        <figure>
-          <img
-            src="images/coral-reef.jpg"
-            alt="A coral reef in clear blue water with sunbeams streaming down and small fish swimming past"
-          />
-          <figcaption>
-            A coral reef in sunlit blue water — expects
-            <code>images/coral-reef.jpg</code>
-          </figcaption>
-        </figure>
-        <p>
-          Coral reefs cover less than one percent of the ocean floor but
-          shelter a quarter of all marine species. Scientists watch them
-          closely — pale corals are a warning sign the water is too warm.
-        </p>
-      </section>
-
-      <section class="split" aria-labelledby="wrecks-heading">
-        <figure>
-          <img
-            src="images/shipwreck.jpg"
-            alt="The coral-encrusted bow of a wooden shipwreck resting on the seafloor in deep blue water"
-          />
-          <figcaption>
-            A shipwreck on the seafloor — expects
-            <code>images/shipwreck.jpg</code>
-          </figcaption>
-        </figure>
-        <div class="split-text">
-          <h2 id="wrecks-heading">What the sea keeps</h2>
-          <p>
-            The deep is a museum. Cold, dark, and still, it preserves wooden
-            ships for centuries — this one rests in the Gulf of Mexico,
-            slowly becoming a reef of its own.
-          </p>
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">CREATIVE WEB DESIGN STUDIO</p>
+          <h1>Your big idea deserves a <em>brilliant</em> website.</h1>
+          <p class="hero-lead">We build beautiful, easy-to-use websites that help small businesses stand out and feel confident online.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#work">See our projects <span aria-hidden="true">↗</span></a><a class="text-link" href="#contact">Let's talk</a></div>
+          <p class="mini-note"><span aria-hidden="true">✺</span> Custom designs · Friendly service · Big ideas</p>
         </div>
-      </section>
+        <div class="hero-image-wrap"><img src="img/hero-workspace.png" alt="Illustration of a modern website displayed on a computer monitor with creative design elements" width="1300" height="1000"></div>
+      </div>
+    </section>
 
-      <section class="split split-reverse" aria-labelledby="deeper-heading">
-        <figure>
-          <img
-            src="images/rov.jpg"
-            alt="A remotely operated vehicle with bright lights exploring a rocky seafloor in dark water"
-          />
-          <figcaption>
-            An underwater robot with bright lights — expects
-            <code>images/rov.jpg</code>
-          </figcaption>
-        </figure>
-        <div class="split-text">
-          <h2 id="deeper-heading">Going deeper</h2>
-          <p>
-            Where divers can't go, robots do. Remotely operated vehicles dive
-            for hours in crushing darkness, piloted from a ship far above,
-            sending back video of places no human eye has seen.
-          </p>
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div><p class="eyebrow">A LITTLE ABOUT US</p><h2>Good design, good vibes, great results.</h2></div>
+        <div><p>Northstar Studio is a fictional creative agency with a very real passion for thoughtful design. We believe every neighborhood bakery, fitness coach, and travel dreamer deserves a website that feels like them.</p><p>Our approach is simple: listen first, design with purpose, and make every click easy.</p></div>
+      </div>
+    </section>
+
+    <section class="projects section" id="work">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">FEATURED PROJECTS</p><h2>Work we're proud of.</h2></div><p>Three imaginary brands. Three distinct styles. One goal: make a memorable first impression.</p></div>
+        <div class="project-grid">
+          <article class="project-card"><img src="img/project-cafe.png" alt="Warm beige coffee shop website concept with a latte illustration" width="1100" height="780" loading="lazy"><div class="project-body"><span class="project-type">CAFÉ / E-COMMERCE</span><h3>The Daily Bloom</h3><p>A cozy digital home for a neighborhood coffee shop, complete with a simple online ordering concept.</p><span class="project-tag">Warm & welcoming</span></div></article>
+          <article class="project-card"><img src="img/project-fitness.png" alt="Dark green fitness website concept with workout-inspired graphics" width="1100" height="780" loading="lazy"><div class="project-body"><span class="project-type">FITNESS / BRANDING</span><h3>Move More</h3><p>A bold, energetic site that helps a local fitness studio connect with new members.</p><span class="project-tag">Bold & motivating</span></div></article>
+          <article class="project-card"><img src="img/project-travel.png" alt="Travel website concept showing stylized mountains and a bright sun" width="1100" height="780" loading="lazy"><div class="project-body"><span class="project-type">TRAVEL / BLOG</span><h3>Roam & Rest</h3><p>A relaxed travel inspiration website built to turn everyday daydreams into adventures.</p><span class="project-tag">Fresh & adventurous</span></div></article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section aria-labelledby="below-heading">
-        <h2 id="below-heading">What's below</h2>
-        <figure>
-          <img
-            src="images/jellyfish.jpg"
-            alt="A glowing pink jellyfish trailing long tentacles through dark water dotted with marine snow"
-          />
-          <figcaption>
-            A pink jellyfish in the dark — expects
-            <code>images/jellyfish.jpg</code>
-          </figcaption>
-        </figure>
-        <p>
-          Most of the deep ocean has never been explored. Drifting through
-          the dark like a lantern, this jellyfish is a reminder: the maps
-          aren't finished yet.
-        </p>
-      </section>
-    </main>
+    <section class="reviews section" id="reviews">
+      <div class="container"><div class="section-heading"><div><p class="eyebrow">KIND WORDS</p><h2>What our clients say.</h2></div><p>Sample testimonials for these fictional portfolio projects.</p></div>
+        <div class="review-grid">
+          <figure class="review-card"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>“Our new website feels just like our café: warm, inviting, and full of personality.”</blockquote><figcaption><strong>Jamie R.</strong><span>Owner, The Daily Bloom</span></figcaption></figure>
+          <figure class="review-card"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>“The design is clear, fresh, and exciting. It makes our fitness studio look its best.”</blockquote><figcaption><strong>Alex M.</strong><span>Founder, Move More</span></figcaption></figure>
+          <figure class="review-card"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>“Northstar brought our travel idea to life with a website that's easy to explore.”</blockquote><figcaption><strong>Taylor S.</strong><span>Creator, Roam & Rest</span></figcaption></figure>
+        </div>
+      </div>
+    </section>
 
-    <footer>
-      <p class="success-banner">
-        Expedition complete! If this line is big, bright, and celebrating,
-        your stylesheet is connected and every file is in place. 🌊
-      </p>
-      <p class="credits">
-        All photos courtesy of NOAA (public domain).
-      </p>
-    </footer>
-  </body>
+    <section class="contact section" id="contact"><div class="container contact-inner"><div><p class="eyebrow">LET'S MAKE SOMETHING GREAT</p><h2>Ready to start your next big thing?</h2><p>Tell us your idea. We'll bring the creativity.</p></div><a class="button button-light" href="mailto:hello@example.com?subject=Website%20Project%20Inquiry">Start a conversation <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-grid"><div><a class="logo" href="#home"><span class="logo-star" aria-hidden="true">✦</span> northstar<span class="logo-dot">.</span></a><p>Thoughtful websites for bright ideas.</p></div><div class="footer-links"><a href="#about">About</a><a href="#work">Projects</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a></div></div><div class="container footer-bottom"><p>© 2026 Northstar Studio. Fictional student portfolio project.</p><p>Made with creativity and a little caffeine.</p></div></footer>
+</body>
 </html>
